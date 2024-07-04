@@ -1,0 +1,25 @@
+.prodsimilar {
+  width: 100%;
+}
+.prodsimilar__title{
+  margin-top: 20px;
+  color: #F85555;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: Yantramanav, sans-serif;
+  margin-left: 50px;
+}
+.prodsimilar2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 15px;
+}
+@media (width < 850) {
+  .prodsimilar__title{
+  text-align: center;
+}
+
+}

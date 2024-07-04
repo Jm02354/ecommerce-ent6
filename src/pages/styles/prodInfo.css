@@ -1,0 +1,17 @@
+.prodinfo {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+@media (width < 850px) {
+  .prodinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .prodinfosimilar{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

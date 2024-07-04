@@ -1,0 +1,35 @@
+.navbar {
+  background-color: white;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dcd9d9;
+  margin-bottom: 30px;
+}
+.navbar__title{
+  color: #F85555;
+  text-decoration: none;
+  
+}
+
+.navbar__list {
+  display: flex;
+  gap: 20px;
+  list-style: none; 
+}
+.navbar__item{
+  padding: 15px;
+  width: 50%;     
+}
+
+.navbar-iconitem{  
+  color: #ABABAB;
+  background: none;  
+  font-size: 1.4rem;
+  line-height: 0;
+  padding: 14px;
+  text-align: center;
+  width: 15%;
+}

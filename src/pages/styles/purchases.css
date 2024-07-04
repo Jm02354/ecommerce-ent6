@@ -1,0 +1,19 @@
+.purchaseslink-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px; 
+  font-family: Yantramanav, sans-serif;
+  margin-bottom: 178px;
+}
+.purchaseslinks {
+  display: flex;
+  gap: 20px;
+  color: #515151;
+  margin-left: -23px;
+}
+h2 {
+  color: #515151;
+}
+p{
+  color: #a9a9a9;
+}
